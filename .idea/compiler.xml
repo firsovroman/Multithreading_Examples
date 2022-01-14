@@ -9,5 +9,8 @@
         <module name="MultiThread" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MultiThread" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
