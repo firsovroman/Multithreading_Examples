@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8bfc269-d332-42a3-b260-03eac93815d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fork_Join_pool_example_RecursiveAction/ForkJoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fork_Join_pool_example_RecursiveAction/SqrtTransform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/semaphore_example/DecThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/semaphore_example/IncThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/semaphore_example/SemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/semaphore_example/Shared.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiThread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MultiThread.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fourth/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fourth/Bankomat$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fourth/Bankomat$SpendThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fourth/Bankomat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fourth/NotEnoughMoneyException.class" beforeDir="false" />
-    </list>
+    <list default="true" id="c8bfc269-d332-42a3-b260-03eac93815d7" name="Default Changelist" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,8 +138,16 @@
       <updated>1641737060239</updated>
       <workItem from="1641737062306" duration="733000" />
       <workItem from="1641778586968" duration="34000" />
-      <workItem from="1642119064758" duration="6457000" />
+      <workItem from="1642119064758" duration="6790000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1642127920642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642127920642</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +165,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -183,6 +176,11 @@
           <properties class="java.lang.IllegalThreadStateException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fork_Join_pool_example_RecursiveAction/ForkJoinDemo.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
