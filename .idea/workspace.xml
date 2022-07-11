@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8bfc269-d332-42a3-b260-03eac93815d7" name="Default Changelist" comment="." />
+    <list default="true" id="95b9cd6c-4234-481a-a09b-393c7c461c48" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/SwitchForThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23SosivaugoG3EnXsVF56u1pbK5" />
   <component name="ProjectLevelVcsManager">
@@ -41,7 +49,7 @@
       <recent name="semaphore_example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestThread">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -92,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Solution" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second.*" />
+          <option name="PATTERN" value="tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,18 +128,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.ForkJoinDemo" />
         <item itemvalue="Application.SemDemo" />
         <item itemvalue="Application.Bankomat" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8bfc269-d332-42a3-b260-03eac93815d7" name="Default Changelist" comment="" />
+      <changelist id="95b9cd6c-4234-481a-a09b-393c7c461c48" name="Changes" comment="." />
       <created>1641737060239</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -139,6 +147,7 @@
       <workItem from="1641737062306" duration="733000" />
       <workItem from="1641778586968" duration="34000" />
       <workItem from="1642119064758" duration="6790000" />
+      <workItem from="1657328244470" duration="6808000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1642127920642</created>
