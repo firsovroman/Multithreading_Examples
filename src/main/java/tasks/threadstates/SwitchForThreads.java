@@ -1,4 +1,4 @@
-package tasks;
+package tasks.threadstates;
 
 public class SwitchForThreads {
 

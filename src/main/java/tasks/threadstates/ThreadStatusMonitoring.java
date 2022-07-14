@@ -1,4 +1,4 @@
-package tasks;
+package tasks.threadstates;
 
 /*
  Вывести в консоль 3 состояния (State) переданной в конструктор нити.
