@@ -36,7 +36,7 @@ public class Task27_task2705 extends Thread {
 
         Thread t1 = new Thread(solution::secondMethod);
 
-        Thread t2 = new Thread(solution::firstMethod);
+        Thread t2 = new Thread(solution::secondMethod);
         t1.start();
         t2.start();
     }
