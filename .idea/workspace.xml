@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95b9cd6c-4234-481a-a09b-393c7c461c48" name="Changes" comment="DeadLock example 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2709/ConsumerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2709/ProducerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2709/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2709/TransferObject.java" afterDir="false" />
+    <list default="true" id="95b9cd6c-4234-481a-a09b-393c7c461c48" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2710/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2710/MailServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2710/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2710/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="semaphore_example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -59,19 +59,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForkJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fork_Join_pool_example_RecursiveAction.ForkJoinDemo" />
-      <module name="MultiThread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fork_Join_pool_example_RecursiveAction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +82,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tasks.task27_task2709.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.task27_task2710.Solution" />
+      <module name="MultiThread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.task27_task2710.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solut" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestThread" />
-        <item itemvalue="Application.ForkJoinDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <workItem from="1657512476912" duration="982000" />
       <workItem from="1657766054893" duration="5146000" />
       <workItem from="1657856573550" duration="986000" />
-      <workItem from="1658451922945" duration="1852000" />
+      <workItem from="1658451922945" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1642127920642</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658368129132</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <created>1658454034114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658454034114</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,9 +215,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
     <MESSAGE value="DeadLock example 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="DeadLock example 2" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
