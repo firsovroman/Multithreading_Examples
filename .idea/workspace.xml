@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95b9cd6c-4234-481a-a09b-393c7c461c48" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="95b9cd6c-4234-481a-a09b-393c7c461c48" name="Changes" comment="DeadLock example 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2709/ConsumerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2709/ProducerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2709/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/task27_task2709/TransferObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,14 +44,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="semaphore_example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solut">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -73,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="semaphore_example.SemDemo" />
+    <configuration name="Solut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.interrupt.one.Solut" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="semaphore_example.*" />
+          <option name="PATTERN" value="tasks.interrupt.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.interrupt.one.Solut" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.task27_task2709.Solution" />
       <module name="MultiThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.interrupt.one.*" />
+          <option name="PATTERN" value="tasks.task27_task2709.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solut" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.ForkJoinDemo" />
-        <item itemvalue="Application.SemDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +153,7 @@
       <workItem from="1657512476912" duration="982000" />
       <workItem from="1657766054893" duration="5146000" />
       <workItem from="1657856573550" duration="986000" />
+      <workItem from="1658451922945" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1642127920642</created>
@@ -179,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657770515037</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DeadLock example 2">
+      <created>1658368129132</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658368129132</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +209,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="DeadLock example 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeadLock example 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -211,6 +223,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/fork_Join_pool_example_RecursiveAction/ForkJoinDemo.java</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tasks/intrinsic_locks_and_synchronization/LocksObjects.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
