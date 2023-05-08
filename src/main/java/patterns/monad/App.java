@@ -1,4 +1,4 @@
-package monad;
+package patterns.monad;
 
 import java.util.function.Function;
 

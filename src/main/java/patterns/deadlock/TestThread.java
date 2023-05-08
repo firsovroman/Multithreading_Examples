@@ -1,4 +1,4 @@
-package deadlock;
+package patterns.deadlock;
 
 public class TestThread {
     public static final Object Lock1 = new Object();

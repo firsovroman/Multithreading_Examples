@@ -1,7 +1,7 @@
-package deadlock;
+package patterns.deadlock;
 
 /*
-Второй вариант deadlock
+Второй вариант patterns.deadlock
 */
 
 public class Task27_task2705 extends Thread {

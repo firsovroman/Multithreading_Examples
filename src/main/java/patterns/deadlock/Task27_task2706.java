@@ -1,4 +1,4 @@
-package deadlock;
+package patterns.deadlock;
 
 public class Task27_task2706 {
 
