@@ -11,11 +11,8 @@ public class App00_volatile {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Thread newThread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while (run);
-            }
+        Thread newThread = new Thread(() -> {
+            while (run);
         });
         newThread.start();
         Thread.sleep(1);
