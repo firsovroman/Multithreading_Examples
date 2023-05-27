@@ -2,7 +2,7 @@
 
 Here I have implemented simple examples of using multi threads.
 
-* primitives examples
-* java_util_concurrent examples
-* multithreading patterns examples
+* a_primitives examples
+* b_java_util_concurrent examples
+* multithreading c_patterns examples
 * akka examples
