@@ -2,14 +2,8 @@ package a_primitives.interrupt;
 
 public class Solut {
     /*
-     Output:
-     first
-     first
-     second
-     second
-     second
-     third
-     fifth
+        Запускаем вывод имени потока в отдельном потоке,
+        отправляем main поток в сон, а потом вызываем прерывание.
      */
     public static void main(String[] args) throws InterruptedException {
         CustomThreadManipulator manipulator = new TaskManipulator();

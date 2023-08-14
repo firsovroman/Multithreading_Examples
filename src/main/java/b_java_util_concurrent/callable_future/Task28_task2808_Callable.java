@@ -29,6 +29,7 @@ public class Task28_task2808_Callable {
 
         executor.shutdown(); //  отправленные задачи выполняются, но новые задачи не принимаются
         executor.awaitTermination(10, TimeUnit.SECONDS);  // даем 10 сек на зваершение выполняющихся задач
+        executor.submit(getTask(1));
 
 /* output
 500500
