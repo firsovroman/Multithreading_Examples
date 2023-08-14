@@ -58,7 +58,7 @@ public class MyOwnThreadFactory {
     private static void emulateThreadFactory() {
 
         // создаем фабрику и тред с задачей выполнить sout
-        AmigoThreadFactory factory = new AmigoThreadFactory();
+        CustomThreadFactory factory = new CustomThreadFactory();
         // вторая задача
         Runnable r = () -> System.out.println(Thread.currentThread().getName());
 
@@ -70,7 +70,7 @@ public class MyOwnThreadFactory {
 
 
 
-    public static class AmigoThreadFactory implements ThreadFactory {
+    public static class CustomThreadFactory implements ThreadFactory {
 
         // счетчик для всех фабрик
         private static AtomicInteger shared = new AtomicInteger(0);
@@ -82,7 +82,7 @@ public class MyOwnThreadFactory {
         private final AtomicInteger threadNumber = new AtomicInteger(1);
 
 
-        public AmigoThreadFactory() {
+        public CustomThreadFactory() {
             this.poolNumber = shared.incrementAndGet();
         }
 
