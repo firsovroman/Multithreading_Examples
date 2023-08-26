@@ -2,6 +2,16 @@ package b_java_util_concurrent.f_synchronizers.f_phaser;
 
 import java.util.concurrent.Phaser;
 
+/**
+ * аждый поток выполняет некоторую работу на фазе и затем вызывает метод arriveAndAwaitAdvance(),
+ * который блокирует потоки до тех пор, пока все остальные потоки не достигнут этой точки.
+ *
+ * После завершения этой фазы главный поток вызывает метод awaitAdvance(),
+ * чтобы дождаться, пока все потоки закончат работу. Этот метод блокирует главный поток до тех пор,
+ * пока все потоки не достигнут фазы, на которой он вызывается.
+ *
+ */
+
 public class PhaserExample {
     public static void main(String[] args) {
         final int numberOfThreads = 3;
