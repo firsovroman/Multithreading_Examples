@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 */
 
-public class Task28_task2806 {
+public class ExecutorService_Task28_task2806 {
     public static void main(String[] args) throws InterruptedException {
 
 

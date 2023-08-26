@@ -1,4 +1,4 @@
-package b_java_util_concurrent.callable_future;
+package b_java_util_concurrent.c_future;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

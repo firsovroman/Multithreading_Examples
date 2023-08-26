@@ -1,4 +1,4 @@
-package b_java_util_concurrent.callable_future.task28_task2813;
+package b_java_util_concurrent.c_future.task28_task2813;
 
 import java.util.concurrent.Callable;
 

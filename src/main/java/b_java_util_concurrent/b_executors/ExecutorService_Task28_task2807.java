@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 
 */
 
-public class Task28_task2807 {
+public class ExecutorService_Task28_task2807 {
     public static void main(String[] args) throws InterruptedException {
 
         LinkedBlockingQueue<Runnable> linkedBlockingQueue = new LinkedBlockingQueue<>();
