@@ -1,4 +1,4 @@
-package b_java_util_concurrent.phaser;
+package b_java_util_concurrent.f_synchronizers.c_phaser;
 
 import java.util.concurrent.Phaser;
 

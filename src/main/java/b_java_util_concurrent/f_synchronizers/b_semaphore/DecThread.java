@@ -1,13 +1,13 @@
-package b_java_util_concurrent.g_semaphore;
+package b_java_util_concurrent.f_synchronizers.b_semaphore;
 
 import java.util.concurrent.Semaphore;
 
-public class IncThread implements Runnable{
+public class DecThread implements Runnable{
 
     String name;
     Semaphore sem;
 
-    public IncThread(Semaphore sem, String a) {
+    public DecThread(Semaphore sem, String a) {
         this.sem = sem;
         this.name = a;
     }
@@ -18,11 +18,11 @@ public class IncThread implements Runnable{
 
         try {
             System.out.println("Поток " + name + " ожидает разрешения");
-            sem.acquire(); // можно закомментировать строку, чтобы посмотреть разницу
+            sem.acquire();  // можно закомментировать строку, чтобы посмотреть разницу
             System.out.println("Поток " + name + " получает разрешение");
 
             for(int  i =0; i<5; i++) {
-                Shared.count++;
+                Shared.count--;
                 System.out.println(name + ": " + Shared.count);
 
                 Thread.sleep(10);
@@ -31,11 +31,8 @@ public class IncThread implements Runnable{
         } catch (InterruptedException e) {
             System.out.println(e);
         } finally {
-
             System.out.println("Поток " + name + " освобождает разрешение");
             sem.release(); // можно закомментировать строку, чтобы посмотреть разницу
-
         }
-
     }
 }

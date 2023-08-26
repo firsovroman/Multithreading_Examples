@@ -1,4 +1,4 @@
-package b_java_util_concurrent.f_lock;
+package b_java_util_concurrent.f_synchronizers.a_lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
