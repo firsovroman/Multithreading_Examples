@@ -1,4 +1,4 @@
-package b_java_util_concurrent.collections.concurrent_hashmap;
+package b_java_util_concurrent.d_collections.concurrent_hashmap;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;

@@ -1,4 +1,4 @@
-package b_java_util_concurrent.collections.blocking_queue;
+package b_java_util_concurrent.d_collections.blocking_queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

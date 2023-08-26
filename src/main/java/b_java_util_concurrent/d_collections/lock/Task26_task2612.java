@@ -1,4 +1,4 @@
-package b_java_util_concurrent.collections.lock;
+package b_java_util_concurrent.d_collections.lock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
