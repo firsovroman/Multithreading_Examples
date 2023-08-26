@@ -1,7 +1,6 @@
-package b_java_util_concurrent.read_write_map;
+package b_java_util_concurrent.f_lock;
 
 import java.util.Map;
-import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 
@@ -23,11 +22,11 @@ P.S. Для корректной работы Map в многопоточной 
 например LinkedHashMap и тогда предложенное решение будет как никогда кстати.
  */
 
-public class ReadWriteMap<K, V> {
+public class ReadWriteLockExample<K, V> {
     private final Map<K, V> map;
-    private final ReadWriteLock lock = new ReentrantReadWriteLock();
+    private final java.util.concurrent.locks.ReadWriteLock lock = new ReentrantReadWriteLock();
 
-    public ReadWriteMap(Map<K, V> map) {
+    public ReadWriteLockExample(Map<K, V> map) {
         this.map = map;
     }
 
