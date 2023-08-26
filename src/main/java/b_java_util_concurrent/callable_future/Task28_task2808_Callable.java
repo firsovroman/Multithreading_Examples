@@ -31,6 +31,8 @@ public class Task28_task2808_Callable {
         executor.awaitTermination(10, TimeUnit.SECONDS);  // даем 10 сек на зваершение выполняющихся задач
         executor.submit(getTask(1));
 
+        CompletableFuture completableFuture;
+
 /* output
 500500
 501501
