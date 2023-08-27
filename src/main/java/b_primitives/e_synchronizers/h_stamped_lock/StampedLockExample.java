@@ -1,4 +1,4 @@
-package b_primitives.f_synchronizers.h_stamped_lock;
+package b_primitives.e_synchronizers.h_stamped_lock;
 
 import java.util.concurrent.locks.StampedLock;
 

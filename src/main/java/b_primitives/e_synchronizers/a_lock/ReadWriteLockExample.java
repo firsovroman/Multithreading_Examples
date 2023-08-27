@@ -1,4 +1,4 @@
-package b_primitives.f_synchronizers.a_lock;
+package b_primitives.e_synchronizers.a_lock;
 
 import java.util.Map;
 import java.util.concurrent.locks.ReentrantReadWriteLock;

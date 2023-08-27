@@ -1,4 +1,4 @@
-package b_primitives.f_synchronizers.d_coun_dow_latch;
+package b_primitives.e_synchronizers.d_coun_dow_latch;
 
 import java.util.concurrent.CountDownLatch;
 

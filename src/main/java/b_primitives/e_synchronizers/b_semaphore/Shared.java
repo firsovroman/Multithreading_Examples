@@ -1,4 +1,4 @@
-package b_primitives.f_synchronizers.b_semaphore;
+package b_primitives.e_synchronizers.b_semaphore;
 
 public class Shared {
 

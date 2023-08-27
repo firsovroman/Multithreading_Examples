@@ -1,4 +1,4 @@
-package b_primitives.f_synchronizers.g_exchanger;
+package b_primitives.e_synchronizers.g_exchanger;
 
 import java.util.concurrent.Exchanger;
 

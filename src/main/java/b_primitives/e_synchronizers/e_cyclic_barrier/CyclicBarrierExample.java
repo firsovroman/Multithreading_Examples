@@ -1,4 +1,4 @@
-package b_primitives.f_synchronizers.e_cyclic_barrier;
+package b_primitives.e_synchronizers.e_cyclic_barrier;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
