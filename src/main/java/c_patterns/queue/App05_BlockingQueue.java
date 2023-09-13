@@ -2,6 +2,7 @@ package c_patterns.queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.TimeUnit;
 
 public class App05_BlockingQueue {
 
@@ -13,7 +14,7 @@ public class App05_BlockingQueue {
         // Producer
         new Thread(() -> {
             int counter = 0;
-            while (true) {
+            while (counter < 30) {
 
                 try {
                     Thread.sleep(300);
@@ -29,12 +30,13 @@ public class App05_BlockingQueue {
             while (true) {
                 try {
                     System.out.println("...wait for take");
-                    int data = queue.take(); // блокируется поток пока в очереди не появятся данные
+//                    int data = queue.take(); // блокируется поток пока в очереди не появятся данные
 
-//                    Integer data = queue.poll(1, TimeUnit.SECONDS); // если на момент запроса (окончание таймаута) нет данных вернет null
-//                    if (data == null) {
-//                        System.out.println("NO data");
-//                    }
+                    Integer data = queue.poll(1, TimeUnit.SECONDS); // если на момент запроса (окончание таймаута) нет данных вернет null
+                    if (data == null) {
+                        System.out.println("NO data");
+                        return;
+                    }
 
                     // int data = queue.remove(); // если на момент запроса нет данных бросите исключение
 
